@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: castai
 spec:
-  version: v0.0.31
+  version: v0.0.32
   platforms:
     - bin: bin/kubectl-castai
-      uri: https://github.com/castai/krew-index/releases/download/v0.0.31/kubectl-castai-plugin_0.0.31_linux_arm64.tar.gz
-      sha256: c702b103d659470a35ca32b97b4b08e7b1e839a741051966aefac7e4b09945f3
+      uri: https://github.com/castai/krew-index/releases/download/v0.0.32/kubectl-castai-plugin_0.0.32_linux_arm64.tar.gz
+      sha256: f7ba215ae6158660c9f41d1272117d7d10678fba1a0b102c8ccd14348575e301
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-castai
-      uri: https://github.com/castai/krew-index/releases/download/v0.0.31/kubectl-castai-plugin_0.0.31_linux_amd64.tar.gz
-      sha256: 741f2a7b02ee408ca111cf95eb3bb1ab8abc0af1b31851236ccb01e4ff4ba062
+      uri: https://github.com/castai/krew-index/releases/download/v0.0.32/kubectl-castai-plugin_0.0.32_linux_amd64.tar.gz
+      sha256: 527cfd7e422ec4d1ddcd2bc8274e551a571015c886f344fe2f629967f9277287
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-castai
-      uri: https://github.com/castai/krew-index/releases/download/v0.0.31/kubectl-castai-plugin_0.0.31_darwin_arm64.tar.gz
-      sha256: 9195646cd9a5b2f92c101a11d21136b5d0842ba1290fce0b1f6f8c1a434a185e
+      uri: https://github.com/castai/krew-index/releases/download/v0.0.32/kubectl-castai-plugin_0.0.32_darwin_arm64.tar.gz
+      sha256: 83e9eccd0f70c9198a7eb5542c9000829d4196e97a29d8a6902928a94d17d947
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-castai
-      uri: https://github.com/castai/krew-index/releases/download/v0.0.31/kubectl-castai-plugin_0.0.31_darwin_amd64.tar.gz
-      sha256: ca954147cad22e470502c825358691777b15844c6f7262945f5c39b23e02af78
+      uri: https://github.com/castai/krew-index/releases/download/v0.0.32/kubectl-castai-plugin_0.0.32_darwin_amd64.tar.gz
+      sha256: c9edfc59065f3867256acebb12b120e8fc3a1c12f832a67bf3a7a2be76867534
       selector:
         matchLabels:
           os: darwin
